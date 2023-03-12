@@ -27,4 +27,9 @@ Route::get('/dashboard', function () {
     return view('staff.dashboard');
 });
 
+
+Route::get('/test', function () {
+    return view('staff.ems.test');
+});
+
 Route::resource('employee',EmployeeController::class);
