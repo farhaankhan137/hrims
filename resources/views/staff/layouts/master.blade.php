@@ -1,4 +1,6 @@
 @include('staff.layouts.header')
 @include('staff.layouts.sidebar')
-@include('staff.layouts.content')
+<div class="main-container">
+@yield('content')
+</div>
 @include('staff.layouts.footer')
